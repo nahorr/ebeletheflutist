@@ -54,13 +54,8 @@
 					
 					<!-- Langauge starts -->
 					<div class="tb-language dropdown pull-right">
-						<a href="#" data-target="#" data-toggle="dropdown"><i class="fa fa-globe"></i> English <i class="fa fa-angle-down color"></i></a>
-						<!-- Dropdown menu with languages -->
-						<ul class="dropdown-menu dropdown-mini" role="menu">
-							<li><a href="#">Hindi</a></li>
-							<li><a href="#">Tamil</a></li>
-							<li><a href="#">Kanada</a></li>
-						</ul>
+						<a href="{{ route('login') }}"><i class="fa fa-user"></i> Login</a>&nbsp;&nbsp;
+						<a href="{{ route('register') }}"><i class="fa fa-user-plus"></i> Register</a>
 					</div>
 					<!-- Language ends -->
 					
@@ -109,7 +104,7 @@
 						<div class="col-md-2">
 							<!-- Logo section -->
 							<div class="logo">
-								<h1><a href="#"><i class="fa fa-laptop"></i> Brave</a></h1>
+								<h1><a href="#"><i class="fa fa-laptop"></i> Nahorr</a></h1>
 							</div>
 						</div>
 						<div class="col-md-9">
