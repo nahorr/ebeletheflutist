@@ -15,19 +15,26 @@
                     Enter your email and to receive instructions
                 </p>
 
-                <form>
+                <form class="form-horizontal" method="POST" action="{{ route('password.email') }}">
+                        {{ csrf_field() }}
                     <fieldset>
                         <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                                <input type="email" class="form-control" placeholder="Email" />
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
                                 <i class="ace-icon fa fa-envelope"></i>
                             </span>
                         </label>
 
                         <div class="clearfix">
-                            <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+                            <button type="submit" class="width-35 pull-right btn btn-sm btn-danger">
                                 <i class="ace-icon fa fa-lightbulb-o"></i>
-                                <span class="bigger-110">Send Me!</span>
+                                <span class="bigger-110">Send Link</span>
                             </button>
                         </div>
                     </fieldset>
@@ -35,7 +42,7 @@
             </div><!-- /.widget-main -->
 
             <div class="toolbar center">
-                <a href="#" data-target="#login-box" class="back-to-login-link">
+                <a href="{{ route('login') }}" class="back-to-login-link">
                     Back to login
                     <i class="ace-icon fa fa-arrow-right"></i>
                 </a>

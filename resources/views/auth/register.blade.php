@@ -16,42 +16,53 @@
                  <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                     {{ csrf_field() }}
                     <fieldset>
+                        
                         <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                                <input type="email" class="form-control" placeholder="Email" />
-                                <i class="ace-icon fa fa-envelope"></i>
-                            </span>
-                        </label>
-
-                        <label class="block clearfix">
-                            <span class="block input-icon input-icon-right">
-                                <input type="text" class="form-control" placeholder="Username" />
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="Full Name" required autofocus>
+                                @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
                                 <i class="ace-icon fa fa-user"></i>
                             </span>
                         </label>
 
                         <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                                <input type="password" class="form-control" placeholder="Password" />
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="Email" required>
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                                <i class="ace-icon fa fa-envelope"></i>
+                            </span>
+                        </label>
+
+                        <label class="block clearfix">
+                            <span class="block input-icon input-icon-right">
+                                <input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
                                 <i class="ace-icon fa fa-lock"></i>
                             </span>
                         </label>
 
                         <label class="block clearfix">
                             <span class="block input-icon input-icon-right">
-                                <input type="password" class="form-control" placeholder="Repeat password" />
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirm Password" required>
                                 <i class="ace-icon fa fa-retweet"></i>
                             </span>
                         </label>
 
-                        <label class="block">
-                            <input type="checkbox" class="ace" />
-                            <span class="lbl">
-                                I accept the
-                                <a href="#">User Agreement</a>
-                            </span>
-                        </label>
-
+                        
                         <div class="space-24"></div>
 
                         <div class="clearfix">
@@ -60,7 +71,7 @@
                                 <span class="bigger-110">Reset</span>
                             </button>
 
-                            <button type="button" class="width-65 pull-right btn btn-sm btn-success">
+                            <button type="submit" class="width-65 pull-right btn btn-sm btn-success">
                                 <span class="bigger-110">Register</span>
 
                                 <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
@@ -71,7 +82,7 @@
             </div>
 
             <div class="toolbar center">
-                <a href="#" data-target="#login-box" class="back-to-login-link">
+                <a href="{{ route('login') }}" class="back-to-login-link">
                     <i class="ace-icon fa fa-arrow-left"></i>
                     Back to login
                 </a>
