@@ -4,6 +4,11 @@
 
     <div id="forgot-box" class="forgot-box visible widget-box no-border">
         <div class="widget-body">
+            @if (session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
             <div class="widget-main">
                 <h4 class="header red lighter bigger">
                     <i class="ace-icon fa fa-key"></i>

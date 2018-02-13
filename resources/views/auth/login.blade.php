@@ -3,6 +3,16 @@
 @section('content')
     
     <div id="login-box" class="login-box visible widget-box no-border">
+        @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+        @endif
+        @if (session('warning'))
+        <div class="alert alert-warning">
+            {{ session('warning') }}
+        </div>
+        @endif
         <div class="widget-body">
             <div class="widget-main">
                 <h4 class="header blue lighter bigger">

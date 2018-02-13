@@ -3,6 +3,8 @@
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta charset="utf-8" />
+         <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Dashboard - Ace Admin</title>
 
         <meta name="description" content="overview &amp; stats" />

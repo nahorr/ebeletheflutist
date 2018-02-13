@@ -13,12 +13,15 @@
 
 Route::get('/', 'HomePublic\HomeController@index')->name('homepublic');
 
-
 Auth::routes();
+
+Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['prefix' => 'administration', 'middleware' => ['auth', 'admin']], function()
-{
-	Route::get('/admin/home', 'Admin\HomeController@index');
+//Admin Area
+Route::group(['middleware' => 'admin'], function () { 
+
+  Route::get('/admin/home', 'Admin\HomeController@index'); 
+  
 });
