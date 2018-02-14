@@ -16,7 +16,7 @@
 										data-y="25" data-voffset="0"
 										data-speed="500"
 										data-start="200"
-										style="z-index: 2;">TONS OF FEATURES
+										style="z-index: 2;">EBELE
 									</div>
 
 									<!-- Layer 2 -->
@@ -25,7 +25,7 @@
 										data-y="60" data-voffset="0"
 										data-speed="500"
 										data-start="700"
-										style="z-index: 2;">BEST THEME EVER MADE
+										style="z-index: 2;">THE FLUTIST
 									</div>									
 								
 									<!-- Layer 3 -->
@@ -191,7 +191,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">BEST
+										style="z-index: 7">NIGERIA'S
 									</div>
 
 									<!-- LAYER NR. 2 -->
@@ -204,7 +204,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">THEME
+										style="z-index: 7"> FIRST
 									</div>
 
 									<!-- LAYER NR. 3 -->
@@ -217,7 +217,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">EVER
+										style="z-index: 7">FEMALE
 									</div>
 
 									<!-- LAYER NR. 4 -->
@@ -230,7 +230,7 @@
 										data-endspeed="300"
 										data-endeasing="Power1.easeIn"
 										data-captionhidden="on"
-										style="z-index: 7">LITERALLY !!!
+										style="z-index: 7">FLUTIST !!!
 									</div>
 
 									<!-- LAYER NR. 7 -->
@@ -242,7 +242,8 @@
 										data-autoplay="true"
 										data-autoplayonlyfirsttime="true"
 										data-nextslideatend="true"
-										style="z-index: 8"><iframe src='https://www.youtube.com/embed/jhNszvpJxho?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
+										style="z-index: 8"><iframe src='https://www.youtube.com/embed/T7_MwSlp2Ew?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
+
 									</div>
 								</li>
 								<!-- Slide #4 ends -->

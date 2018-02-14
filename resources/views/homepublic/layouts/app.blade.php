@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Home - Nahorr Analytics</title>
+		<title>Home - Ebele The Flutist</title>
 		<!-- Description, Keywords and Author -->
 		<meta name="description" content="Ebele The Flutist">
 		<meta name="keywords" content="Your,Keywords">
