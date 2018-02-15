@@ -18,8 +18,8 @@
 					
 					<br />
 					<div class="text-center">
-						<h3><span class="color">Brave</span>. Most Amazing Theme Ever Made. <span class="color">Literally</span>.</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod sapien. Donec eu feugiat enim, sed tempus arcu. <br /> Pellentesque magna nisi, consectetur eget psum primis eros, et neque sit amet, lobortis elit. </p>
+						<h3><span class="color">Ebele</span> is a versatile, creative and innovative <span class="color">musician</span>.</h3>
+						<p>and personal development coach. She believes in the power of music and its ability <br /> to induce progressive positive transformation in an individual.</p>
 					</div>
 					
 					<div class="divider-1"></div>
