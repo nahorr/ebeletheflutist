@@ -164,13 +164,7 @@
 		
 		<!-- Custom JS. Type your JS code in custom.js file -->
 		<script src="{{asset('brave/js/custom.js')}}"></script>
-		
-		<!-- 
-		Style switcher. This is just for demo purpose only. 
-		If you don't want remove the below line.
-		Some of the features of style switcher won't work on offline. THey only work when you upload it to server 
-		-->
-		<!-- <script src="style-switcher/style-switcher.js"></script> -->
+
 		
 	</body>	
 </html>

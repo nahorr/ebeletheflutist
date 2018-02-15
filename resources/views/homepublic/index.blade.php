@@ -32,9 +32,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-red">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/10.png')}}" alt="" class="img-responsive" /></a>
+										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_audios.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Consequatr</a></h4>
+									<h4><a href="#">Audios</a></h4>
 									<div class="bor bg-red"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -43,9 +43,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-lblue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/3.png')}}" alt="" class="img-responsive" /></a>
+										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_videos.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Doloribues</a></h4>
+									<h4><a href="#">Videos</a></h4>
 									<div class="bor bg-lblue"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -54,9 +54,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-green">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/17.png')}}" alt="" class="img-responsive" /></a>
+										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_lyrics.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Perferends</a></h4>
+									<h4><a href="#">Lyrics</a></h4>
 									<div class="bor bg-green"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
@@ -65,9 +65,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-blue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/20.png')}}" alt="" class="img-responsive" /></a>
+										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_training.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Repellat</a></h4>
+									<h4><a href="#">Taining</a></h4>
 									<div class="bor bg-blue"></div>
 									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
 								</div>
