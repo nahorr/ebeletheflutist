@@ -174,7 +174,7 @@
 				
 					<!-- Block heading two -->
 					<div class="block-heading-two">
-						<h3><span>Our Speciality</span></h3>
+						<h3><span>My Speciality</span></h3>
 					</div>	
 					
 					<div class="row">
