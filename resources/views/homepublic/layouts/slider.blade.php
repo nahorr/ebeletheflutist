@@ -96,7 +96,7 @@
 										data-y="270"
 										data-speed="700"
 										data-start="2900"
-										style="z-index: 7">MUSIC & FLUT TRAINING
+										style="z-index: 7">MUSIC & FLUTE TRAINING
 									</div>																		
 									
 								</li>
@@ -220,7 +220,7 @@
 										data-autoplay="true"
 										data-autoplayonlyfirsttime="true"
 										data-nextslideatend="true"
-										style="z-index: 8"><iframe src='https://www.youtube.com/embed/T7_MwSlp2Ew?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
+										style="z-index: 8"><iframe src='https://www.youtube.com/embed/UeQuCO-kmDs?enablejsapi=1&amp;html5=1&amp;iv_load_policy=3&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='540' height='333' style='width:540px;height:333px;border:0px;box-shadow:0px 0px 5px rgba(0,0,0,0.4);'></iframe>
 
 									</div>
 								</li>

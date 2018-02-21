@@ -30,7 +30,7 @@
 							<a href="https://plus.google.com/109824567381646809495" class="google-plus" target="_blank"><i class="fa fa-google-plus square-2 rounded-1"></i></a>
 							<a href="https://ng.linkedin.com/in/ebele-the-flutist-43a60555" class="linkedin" target="_blank"><i class="fa fa-linkedin square-2 rounded-1"></i></a>
 							<a href="https://www.instagram.com/explore/tags/ebeletheflutist/" class="instagram" target="_blank"><i class="fa fa-instagram square-2 rounded-1"></i></a>
-							<a href="https://www.youtube.com/watch?v=339ZUA_h-VU&feature=youtu.be" class="youtube" target="_blank"><i class="fa fa-youtube square-2 rounded-1"></i></a>
+							<a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg" class="youtube" target="_blank"><i class="fa fa-youtube square-2 rounded-1"></i></a>
 						</div>
 					</div>
 					<!-- Social media ends -->
