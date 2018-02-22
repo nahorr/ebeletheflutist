@@ -33,7 +33,7 @@
 		<link href="{{asset('brave/css/custom.css')}}" rel="stylesheet">
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="#">
+		<link rel="shortcut icon" href="{{asset('brave/img/favicon.ico')}}">
 	</head>
 	
 	<!-- Add class "boxed" along with body for boxed layout. -->
