@@ -50,7 +50,7 @@
 						<div class="col-md-4">
 							<!-- Logo section -->
 							<div class="logo">
-								<a href="href="{{ url('/') }}">
+								<a href="{{ url('/') }}">
 									<img src="{{asset('brave/img/ebeletheflutist_logo.png')}}" alt="ebeletheflutist" />
 								</a>
 							</div>

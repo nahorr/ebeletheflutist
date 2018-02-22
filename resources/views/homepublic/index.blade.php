@@ -32,11 +32,11 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-red">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_audios.png')}}" alt="" class="img-responsive" /></a>
+										<a href="https://www.reverbnation.com/ebeletheflutist" target="_blank"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_audios.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Audios</a></h4>
+									<h4><a href="https://www.reverbnation.com/ebeletheflutist" target="_blank">Audios</a></h4>
 									<div class="bor bg-red"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>We are number 9 on the ReverbNation Christian/Gospel charts for Abuja, Nigeria! </p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -47,7 +47,7 @@
 									</div>
 									<h4><a href="#">Videos</a></h4>
 									<div class="bor bg-lblue"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>Visit our youtube chanel for inspirational and mind lifting music videos and perfomences.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -58,7 +58,7 @@
 									</div>
 									<h4><a href="#">Lyrics</a></h4>
 									<div class="bor bg-green"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>Interested in Learning the Lyrics? Check our Lyrics page out and sign along with Ebele.</p>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -69,7 +69,7 @@
 									</div>
 									<h4><a href="#">Taining</a></h4>
 									<div class="bor bg-blue"></div>
-									<p>Maiores alias consequatur aut perferendis doloribus asperiores repellat earum dolor.</p>
+									<p>We provide music and flute training for companies and individuals - inhouse or remotely.  </p>
 								</div>
 							</div>
 						</div>	
@@ -79,7 +79,7 @@
 					
 										
 					<div class="block-heading-two">
-						<h3><span>Recent Works</span></h3>
+						<h3><span>#MusicFluteTrainingTipsByEbele</span></h3>
 					</div>					
 					
 					<div class="img-box-4 text-center">
@@ -94,11 +94,11 @@
 										<!-- Icon -->
 										<a href="#"><i class="fa fa-picture-o bg-red"></i></a>
 										<!-- Heading -->
-										<h4><a href="#">Blinded Desire</a></h4>
+										<h4><a href="#">5 TIPS TO INCREASE YOUR FLUTE FINGERING </a></h4>
 										<!-- Border -->
 										<div class="bor bg-red"></div>
 										<!-- Paragraph -->
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
+										<p>Do You Ever Struggle With Your Fingerings and Think to Yourself... </p>
 									</div>
 								</div>
 							</div>
@@ -152,16 +152,13 @@
 							<div class="owl-carousel" data-items="1" data-auto-play="true" data-pagination="true" data-single-item="true">
 								<!-- Item -->
 								<div class="item">
-									<h3>At vero eos et accusamus et iusto odio dignissimos ducimus indignation qui blanditiis praesentium voluptatum.</h3>
-									- Helon Thomas
+									<h3>Ebele was exposed to music as a little child and she learnt rudiments of music at a very early stage of her life.</h3>
 								</div>
 								<div class="item">
-									<h3>Indignation qui blanditiis praesentium voluptatum at vero eos et accusamus et iusto odio dignissimos ducimus.</h3>
-									- Helon Peter
+									<h3>Ebele was 14yrs old when she got her first flute as a gift from her Dad.</h3>
 								</div>
 								<div class="item">
-									<h3>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized.</h3>
-									- John Mark 
+									<h3>Music was initially to her a hobby, then it became a passion. Now music is more than a career to Ebele, it is her life’s story.</h3>
 								</div>
 							</div>
 						</div>
@@ -174,194 +171,21 @@
 				
 					<!-- Block heading two -->
 					<div class="block-heading-two">
-						<h3><span>My Speciality</span></h3>
+						<h3><span>Brand Personality</span></h3>
 					</div>	
 					
 					<div class="row">
 						<div class="col-md-7 col-sm-6">
-							<p class="para-big">Praesent orci eros, rhoncus et neque sit amet, lobortis auctor libero. Vivamus sed laoreet enim. Donec iaculis eros ac leo venenatis porta. Ut eget velit nec velit varius tincidunt. Etiam vel egestas dolor, ac interdum felis.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut euismod sapien. Donec eu feugiat enim, sed tempus arcu. Pellentesque magna nisi, consectetur eget interdum non, interdum a nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent orci eros, rhoncus et neque sit amet, lobortis auctor libero. Vivamus sed laoreet enim. Donec iaculis eros ac leo venenatis porta. Cras tincidunt nisl id lobortis mollis. Ut pretium, quam ut rhoncus pharetra, dui lectus tincidunt risus, eu rhoncus odio tortor fermentum augue. Nulla rutrum bibendum nisl sagittis mollis. Duis adipiscing libero nisi, nec cursus risus dapibus ac.</p>
-							<br />
+							<p class="para-big">The Ebele brand is active, youthful and driven. I have a strong belief in God and His purpose for mankind and He takes utmost priority in all things. I believe that with His help, hard work and determination, all goals are achievable. So I am practical, and I do my best at every point in time to be articulate my versatility, creativity, intelligence and skill.</p>
+							<p class="para-big">I am friendly, warm and extremely passionate about music. I am not a stereotype. I am very comfortable with change. I am always learning and always giving myself to what I believe in. I am I am principled, yet approachable, full of vigor yet collected. I am confident, articulate, fit and socially learned.</p>
 						</div>
 						<div class="col-md-5 col-sm-6 text-center">
-							<a href="#"><img src="{{asset('brave/img/rev-slider/mockup1.png')}}" alt="" class="img-responsive" /></a>
+							<a href="#"><img src="{{asset('brave/img/rev-slider/ebeletheflutist_13.png')}}" alt="" class="img-responsive" /></a>
 						</div>
 					</div>
 					
 					<br />
-					<hr />
 					<br />
-				
-					<div class="block-heading-two text-center">
-						<h3><span>Company Status</span></h3>
-					</div>	
-					<!-- Client One Starts -->
-					<br />
-				
-					<!-- Counter #4 starts -->
-					<div class="counter-four">
-						<div class="counter-content">
-							<div class="row">
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-trophy color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="95" data-speed="3000" data-refresh-interval="50"></span><small>Award</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-coffee color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="75" data-speed="3000" data-refresh-interval="50"></span><small>Coffee</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-calendar color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="69" data-speed="3000" data-refresh-interval="50"></span><small>Year's</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-share-alt color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="85" data-speed="3000" data-refresh-interval="50"></span><small>Likes</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-cloud color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="43" data-speed="3000" data-refresh-interval="50"></span><small>Money</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-gift color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="89" data-speed="3000" data-refresh-interval="50"></span><small>Download</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-desktop color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="49" data-speed="3000" data-refresh-interval="50"></span><small>Watch</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- counter item -->
-									<div class="counter-item">
-										<!-- icon -->
-										<i class="fa fa-twitter color"></i>
-										<!-- Heading -->
-										<h4><span class="number-count" data-from="10" data-to="75" data-speed="3000" data-refresh-interval="50"></span><small>Twitter</small></h4>
-										<!-- Paragraph -->
-										<p>Printing and typesetting some industry.</p>
-										<div class="clearfix"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Counter #4 ends -->
-					
-					<br />
-					
-					<div class="block-heading-two text-center">
-						<h3><span>Our Clients</span></h3>
-					</div>	
-					<!-- Client One Starts -->
-					<br />
-					
-					<div class="client-one">
-						<div class="owl-carousel" data-items="5" data-auto-play="true" data-pagination="false" data-single-item="false">
-							<!-- Item -->
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-1.png')}}" alt=""  class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Variations</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-2.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Repetition</a></h5>
-							</div>
-							<div class="c1-item">			
-								<a href="#"><img src="{{asset('brave/img/clients/c1-3.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Pleasure</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-4.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Molestiae</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-5.png')}}" alt=""  class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Extremely</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-6.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Annoying</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-2.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Doloribus</a></h5>
-							</div>
-							<div class="c1-item">
-								<a href="#"><img src="{{asset('brave/img/clients/c1-3.png')}}" alt="" class="img-responsive" /></a>
-								<div class="img-hover"></div>
-								<h5><a href="#">Repellat</a></h5>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Client One Ends -->
-					
-					
 				</div>
 			</div>
 			

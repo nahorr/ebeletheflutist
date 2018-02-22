@@ -60,7 +60,7 @@
 										data-y="90"
 										data-speed="800"
 										data-start="1700"
-										style="z-index: 8"><img src="{{asset('brave/img/rev-slider/ebeletheflutist_0010.jpg')}}" alt="" />
+										style="z-index: 8"><img src="{{asset('brave/img/rev-slider/ebeletheflutist_01.jpg')}}" alt="" />
 									</div>	
 
 									<!-- Layer 7 -->

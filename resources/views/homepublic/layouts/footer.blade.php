@@ -8,8 +8,8 @@
 							<!-- Foot Item -->
 							<div class="foot-item">
 								<!-- Heading -->
-								<h5 class="bold"><i class="fa fa-user"></i>&nbsp;&nbsp;About</h5>
-								<p>Itaque earum rerum hic tenetur a atque atatum dele niti atque tenetur a atque atatum tenetur volup tatum.</p>
+								<h5 class="bold"><i class="fa fa-user"></i>&nbsp;&nbsp;About Ebele</h5>
+								<p>Ebele is a versatile, creative and innovative MUSICIAN AND PERSONAL DEVELOPMENT COACH.</p>
 								<div class="brand-bg">
 									<!-- Social Media Icons -->
 									<a href="https://free.facebook.com/NigForemostFemaleFlutist/?_rdc=1&_rdr" class="facebook" target="_blank"><i class="fa fa-facebook circle-3"></i></a>
@@ -17,7 +17,7 @@
 									<a href="https://plus.google.com/109824567381646809495" class="google-plus" target="_blank"><i class="fa fa-google-plus circle-3"></i></a>
 									<a href="https://ng.linkedin.com/in/ebele-the-flutist-43a60555" class="linkedin" target="_blank"><i class="fa fa-linkedin circle-3"></i></a>
 									<a href="https://www.instagram.com/explore/tags/ebeletheflutist/" class="instagram" target="_blank"><i class="fa fa-instagram circle-3"></i></a>
-									<a href="https://www.youtube.com/watch?v=339ZUA_h-VU&feature=youtu.be" class="youtube" target="_blank"><i class="fa fa-youtube circle-3"></i></a>
+									<a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg" class="youtube" target="_blank"><i class="fa fa-youtube circle-3"></i></a>
 								</div>
 							</div>
 						</div>	
@@ -25,16 +25,16 @@
 							<!-- Foot Item -->
 							<div class="foot-item">
 								<!-- Heading -->
-								<h5 class="bold"><i class="fa fa-comments"></i>&nbsp;&nbsp;Recent Performances</h5>
+								<h5 class="bold"><i class="fa fa-music"></i>&nbsp;&nbsp;Music</h5>
 								<!-- Foot Item Content -->
 								<div class="foot-item-content">
 									<ul class="list-unstyled">
 										<!-- Link -->
-										<li><a href="#">Denocing Sapientes Contain</a></li>
-										<li><a href="#">Dignissim Electronic Typeset</a></li>
-										<li><a href="#">Laborum Desktop Publishing</a></li>
-										<li><a href="#">Quibus PageMaker Including</a></li>
-										<li><a href="#">Denocing Sapientes Contain</a></li>
+										<li><a href="#">Listen to Audios</a></li>
+										<li><a href="#">Watch my videos</a></li>
+										<li><a href="#">Learn the Lyrics</a></li>
+										<li><a href="#">Music and Flute Training</a></li>
+										
 									</ul>
 								</div>
 							</div>
@@ -101,10 +101,10 @@
 						<p class="pull-left">Copyright &copy; 2018 - <a href="https://www.ebeletheflutist.com/">Ebele The Flutist</a> :: <span> Designed By <a href="https://www.nahorr.com/">Nahorr Analytics</a></span></p>
 						<ul class="list-inline pull-right">
 							<!-- List -->
-							<li><a href="index.html">Home</a><li>
-							<li><a href="service.html">Music</a></li>
-							<li><a href="feature.html">About Ebele</a></li>
-							<li><a href="contact-us.html">Contact</a></li>
+							<li><a href="{{ url('/')}}">Home</a><li>
+							<li><a href="{{ url('/Music')}}">Music</a></li>
+							<li><a href="{{ url('/about')}}">About Ebele</a></li>
+							<li><a href="{{ url('/Contact')}}">Contact</a></li>
 						</ul>
 						<!-- Clearfix -->
 						<div class="clearfix"></div>
