@@ -64,62 +64,18 @@
 									<!-- Main menu -->
 									<li><a href="{{ url('/') }}">HOME</a></li>
 								
-									<li><a href="#">MUSIC</a>
+									<li><a href="{{url('/')}}">MUSIC</a>
 										<ul>
-											<li><a href="#">Audios </a>
-												<ul>
-													<li><a href="accordion.html">Accordion</a></li>
-													<li><a href="blockquote.html">Blockquote</a></li>
-													<li><a href="box-shadow.html">Shadow Box</a></li>
-													<li><a href="brave-components.html">Basic Brave Components</a></li>
-													<li><a href="clients.html">Clients</a></li>
-													<li><a href="counter.html">Counter</a></li>
-													<li><a href="typography.html">Typography</a></li>
-													<li><a href="cta.html">CTA</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Videos </a>
-												<ul>
-													<li><a href="divider.html">Divider</a></li>
-													<li><a href="bootstrap-carousel.html">Carousel</a></li>
-													<li><a href="heading.html">Heading</a></li>
-													<li><a href="icon-box.html">Icon Box</a></li>
-													<li><a href="icons.html">Icons</a></li>
-													<li><a href="image-box.html">Image Box</a></li>
-													<li><a href="images.html">Images</a></li>
-													<li><a href="knob.html">Knob</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Lyrics</a>
-												<ul>
-													<li><a href="nav-tabs.html">Nav Tabs</a></li>
-													<li><a href="owl-carousel.html">Owl Carousel</a></li>
-													<li><a href="panel.html">Panel</a></li>
-													<li><a href="pricing-table.html">Pricing Table</a></li>
-													<li><a href="progress-bar.html">Progress Bar</a></li>
-													<li><a href="tables.html">Tables</a></li>
-													<li><a href="team.html">Team</a></li>
-													<li><a href="testimonial.html">Testimonial</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Music/Flute Training</a>
-												<ul>
-													<li><a href="nav-tabs.html">Nav Tabs</a></li>
-													<li><a href="owl-carousel.html">Owl Carousel</a></li>
-													<li><a href="panel.html">Panel</a></li>
-													<li><a href="pricing-table.html">Pricing Table</a></li>
-													<li><a href="progress-bar.html">Progress Bar</a></li>
-													<li><a href="tables.html">Tables</a></li>
-													<li><a href="team.html">Team</a></li>
-													<li><a href="testimonial.html">Testimonial</a></li>
-												</ul>
-											</li>
+											<li><a href=" {{url('/music/audios')}} ">Audios </a></li>
+											<li><a href="{{url('/music/videos')}}">Videos </a></li>
+											<li><a href="{{url('/music/lyrics')}}">Lyrics</a></li>
+											<li><a href="{{url('/music/training')}}">Music/Flute Training</a></li>
 											
 										</ul>
 									</li>
 									
-									<li><a href="about-us-one.html">ABOUT EBELE</a></li>
-									<li><a href="contact-us-one.html">CONTACT</a></li>
+									<li><a href="{{url('/about')}}">ABOUT EBELE</a></li>
+									<li><a href="{{url('/contact')}}">CONTACT</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->

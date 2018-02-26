@@ -12,6 +12,14 @@
 */
 
 Route::get('/', 'HomePublic\HomeController@index')->name('homepublic');
+Route::get('/music', 'HomePublic\HomeController@music');
+Route::get('/music/audios', 'HomePublic\HomeController@musicAudios');
+Route::get('/music/videos', 'HomePublic\HomeController@musicAudios');
+Route::get('/music/audios', 'HomePublic\HomeController@musicVideos');
+Route::get('/music/training', 'HomePublic\HomeController@musicTraining');
+Route::get('/about', 'HomePublic\HomeController@about');
+Route::get('/contact', 'HomePublic\HomeController@contact');
+Route::get('/musicflutetrainingtipsbyebele', 'HomePublic\HomeController@musicFluteTrainingTipsByEbele');
 
 Auth::routes();
 

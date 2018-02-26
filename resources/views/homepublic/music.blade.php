@@ -79,7 +79,7 @@
 					
 										
 					<div class="block-heading-two">
-						<h3><span><a href="{{url('/musicflutetrainingtipsbyebele')}}">#MusicFluteTrainingTipsByEbele</a></span></h3>
+						<h3><span>#MusicFluteTrainingTipsByEbele</span></h3>
 					</div>					
 					
 					<div class="img-box-4 text-center">
