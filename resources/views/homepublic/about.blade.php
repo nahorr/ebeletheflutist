@@ -33,36 +33,37 @@
 								<img src="{{asset('brave/img/backgrounds/s1.jpg')}}" alt="">
 								<div class="carousel-caption c-bottom-full">
 									<!-- Heading -->
-									<h4><a href="#">Some heading here</a></h4>
+									<h4><a href="#">Ebele the flutist</a></h4>
 									<!-- Para -->
-									<p>Nemo enim ipsam voluptatem quia voluptas sit it aut fugit, sed quia neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.</p>
+									<p>The first Nigerian professional female flutist.</p>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{asset('brave/img/backgrounds/s2.jpg')}}" alt="">
 								<div class="carousel-caption c-bottom-full">
 									<!-- Heading -->
-									<h4><a href="#">Some heading here</a></h4>
+									<h4><a href="#">Vision</a></h4>
 									<!-- Para -->
-									<p>Nemo enim ipsam voluptatem quia voluptas sit it aut fugit, sed quia neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.</p>
+									<p>To be Africa’s best female flutist and personal development coach by building a generation of people with sound understanding of music and over all wellness.</p>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{asset('brave/img/backgrounds/s3.jpg')}}" alt="">
 								<div class="carousel-caption c-bottom-full">
 									<!-- Heading -->
-									<h4><a href="#">Some heading here</a></h4>
+									
+									<h4><a href="#">Versatile</a></h4>
 									<!-- Para -->
-									<p>Nemo enim ipsam voluptatem quia voluptas sit it aut fugit, sed quia neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.</p>
+									<p>In addition to her music, Ebele evinces her passion by engaging her audience in Personal development activities through Talk Shows, Health & Fitness Talks and Music Trainings</p>
 								</div>
 							</div>
 							<div class="item">
 								<img src="{{asset('brave/img/backgrounds/s4.jpg')}}" alt="">
 								<div class="carousel-caption c-bottom-full">
 									<!-- Heading -->
-									<h4><a href="#">Some heading here</a></h4>
+									<h4><a href="#"> Innovative</a></h4>
 									<!-- Para -->
-									<p>Nemo enim ipsam voluptatem quia voluptas sit it aut fugit, sed quia neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur.</p>
+									<p>Ebele continually strives for excellence in music compositions and performances.</p>
 								</div>
 							</div>
 						</div>
