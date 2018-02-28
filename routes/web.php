@@ -19,6 +19,7 @@ Route::get('/music/audios', 'HomePublic\HomeController@musicVideos');
 Route::get('/music/training', 'HomePublic\HomeController@musicTraining');
 Route::get('/about', 'HomePublic\HomeController@about');
 Route::get('/contact', 'HomePublic\HomeController@contact');
+Route::post('/postcontactform', 'HomePublic\HomeController@postContactForm');
 Route::get('/musicflutetrainingtipsbyebele', 'HomePublic\HomeController@musicFluteTrainingTipsByEbele');
 
 Auth::routes();

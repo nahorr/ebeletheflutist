@@ -81,7 +81,7 @@
 									   Alberta - T0L0T0.</p>
 									<p class="tel"> <i class="fa fa-phone"></i> Tel : +2348037104996<br />
 									<i class="fa fa-envelope"></i>  Mail : <a href="#">ebele@ebeletheflutist.com</a><br />
-									<i class="fa fa-calendar"></i> Business Hours : 9:00 - 5:30</p>
+									
 								</div>
 							</div>
 						</div>

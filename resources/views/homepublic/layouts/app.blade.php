@@ -34,6 +34,8 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="{{asset('brave/img/favicon.ico')}}">
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	</head>
 	
 	<!-- Add class "boxed" along with body for boxed layout. -->
@@ -47,6 +49,9 @@
 		<span class="totop"><a href="#"><i class="fa fa-angle-up bg-color"></i></a></span>
 		
 		<!-- Javascript files -->
+		
+		<!-- for google reCaptcha -->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- jQuery -->
 		<script src="{{asset('brave/js/jquery.js')}}"></script>
 		<!-- Bootstrap JS -->
