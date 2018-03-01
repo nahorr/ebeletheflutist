@@ -44,7 +44,20 @@
         <script src="assets/js/respond.min.js"></script>
         <![endif]-->
 
-    </head>
+     
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script> 
+
+        <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />-->
+
+        <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <!-- include summernote css/js-->
+
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.css" rel="stylesheet">
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.4/summernote.js"></script>
+
+    </hea>
 
     <body class="no-skin">
 
@@ -95,9 +108,12 @@
         <!-- basic scripts -->
 
         <!--[if !IE]> -->
-        <script src="{{asset('ace/assets/js/jquery-2.1.4.min.js')}}"></script>
+        <!--<script src="{{asset('ace/assets/js/jquery-2.1.4.min.js')}}"></script>-->
 
         <!-- <![endif]-->
+
+        <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>-->
+       
 
         <!--[if IE]>
         <script src="assets/js/jquery-1.11.3.min.js"></script>
@@ -105,7 +121,7 @@
         <script type="text/javascript">
             if('ontouchstart' in document.documentElement) document.write("<script src='{{asset('ace/assets/js/jquery.mobile.custom.min.js')}}'>"+"<"+"/script>");
         </script>
-        <script src="{{asset('ace/assets/js/bootstrap.min.js')}}"></script>
+        <!--<script src="{{asset('ace/assets/js/bootstrap.min.js')}}"></script>-->
 
         <!-- page specific plugin scripts -->
 
@@ -127,6 +143,13 @@
 
         <!-- inline scripts related to this page -->
         <script type="text/javascript">
+
+            //summernote editor
+            $(document).ready(function() {
+             $('.summernote').summernote({
+                   height: 300,
+              });
+           });
             
             jQuery(function($) {
                 $('.easy-pie-chart.percentage').each(function(){
