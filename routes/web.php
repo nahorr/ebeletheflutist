@@ -31,6 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Admin Area
 Route::group(['middleware' => 'admin'], function () { 
 
-  Route::get('/admin/home', 'Admin\HomeController@index'); 
+  Route::get('/admin/home', 'Admin\HomeController@index');
+  Route::get('/admin/tips/showtips', 'Admin\TipsController@showTips');
   
 });

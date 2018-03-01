@@ -1,199 +1,167 @@
 @extends('homepublic.layouts.app')
+
 @section('content')		
 		<!-- Outer Starts -->
 		<div class="outer">
 			
 		@include('homepublic.layouts.header')
-			
-			<!-- Main content starts -->
+
+						<!-- Main content starts -->
 	
 			<div class="main-block">
 				
-				<!-- Revolution slider full width starts -->
-				@include('homepublic.layouts.slider')
+				<!-- Page heading two starts -->
 				
-				<!-- Revolution slider full width ends -->
+				<div class="page-heading-two">
+					<div class="container">
+						<h2>#MusicFluteTrainingTipsByEbele <span>Tips by Ebele</span></h2>
+						<div class="breads">
+							Home / <a href="#">Page</a> / <a href="#">Sub Page</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				
+				<!-- Page heading two ends -->
 			
 				<div class="container">
 					
-					<br />
-					<div class="text-center">
-						<h3><span class="color">Ebele</span> is a versatile, creative and innovative <span class="color">musician</span>.</h3>
-						<p>and personal development coach. She believes in the power of music and its ability <br /> to induce progressive positive transformation in an individual.</p>
-					</div>
-					
-					<div class="divider-1"></div>
-					
-					<!-- Image Box #3 Starts -->
-		
-					<div class="img-box-3 text-center">
+					<!-- blog two -->
+					<div class="blog-two">
 						<div class="row">
-							<div class="col-md-3 col-sm-6">
-								<!-- Image Box #3 Item -->
-								<div class="img-box-3-item">
-									<div class="img-box-3-icon bg-red">
-										<a href="https://www.reverbnation.com/ebeletheflutist" target="_blank"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_audios.png')}}" alt="" class="img-responsive" /></a>
-									</div>
-									<h4><a href="https://www.reverbnation.com/ebeletheflutist" target="_blank">Audios</a></h4>
-									<div class="bor bg-red"></div>
-									<p>We are number 9 on the ReverbNation Christian/Gospel charts for Abuja, Nigeria! </p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- Image Box #3 Item -->
-								<div class="img-box-3-item">
-									<div class="img-box-3-icon bg-lblue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_videos.png')}}" alt="" class="img-responsive" /></a>
-									</div>
-									<h4><a href="#">Videos</a></h4>
-									<div class="bor bg-lblue"></div>
-									<p>Visit our youtube chanel for inspirational and mind lifting music videos and perfomences.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- Image Box #3 Item -->
-								<div class="img-box-3-item">
-									<div class="img-box-3-icon bg-green">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_lyrics.png')}}" alt="" class="img-responsive" /></a>
-									</div>
-									<h4><a href="#">Lyrics</a></h4>
-									<div class="bor bg-green"></div>
-									<p>Interested in Learning the Lyrics? Check our Lyrics page out and sign along with Ebele.</p>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<!-- Image Box #3 Item -->
-								<div class="img-box-3-item">
-									<div class="img-box-3-icon bg-blue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_training.png')}}" alt="" class="img-responsive" /></a>
-									</div>
-									<h4><a href="#">Taining</a></h4>
-									<div class="bor bg-blue"></div>
-									<p>We provide music and flute training for companies and individuals - inhouse or remotely.  </p>
-								</div>
-							</div>
-						</div>	
-					</div>
-					
-					<!-- Image Box #3 Ends -->
-					
-										
-					<div class="block-heading-two">
-						<h3><span>#MusicFluteTrainingTipsByEbele</span></h3>
-					</div>					
-					
-					<div class="img-box-4 text-center">
-						<div class="row">
-							<div class="col-md-3 col-sm-6">
-								<!-- Image Box #4 Item -->
-								<div class="img-box-4-item">
-									<!-- Image -->
-									<a href="{{asset('brave/img/gallery/small/1.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/1.jpg')}}" alt="" class="img-responsive" /></a>
-									<!-- Image Box #4 Content -->
-									<div class="img-box-4-content">
-										<!-- Icon -->
-										<a href="#"><i class="fa fa-picture-o bg-red"></i></a>
+							<!-- Mainbar column -->
+							<div class="col-md-8">
+							
+								<!-- Blog item starts -->
+								<div class="blog-two-item">
+									<!-- blog two Content -->
+									<div class="blog-two-content">
 										<!-- Heading -->
-										<h4><a href="#">5 TIPS TO INCREASE YOUR FLUTE FINGERING </a></h4>
-										<!-- Border -->
-										<div class="bor bg-red"></div>
+										<h3><a href="blog-single.html">5 TIPS TO INCREASE YOUR FLUTE FINGERING</a></h3>
+										<!-- Blog meta -->
+										<div class="blog-meta">
+											<!-- Date -->
+											<a href="#"><i class="fa fa-calendar"></i> &nbsp; 24.3.2014</a> &nbsp; 
+											<!-- Author -->
+											<a href="#"><i class="fa fa-user"></i> &nbsp; Ebele</a> &nbsp;
+											
+										</div>
+										
+										<!-- Carousel -->
+										
+										<!-- Bootstrap carousel usage 
+											Bootstrap carousel should have id. Below i am using "bs-carousel-X". Where "X" denotes number". If a page has more than 1 carousel, then add the new carousel with the id "bs-carousel-1", "bs-carousel-2". You also need to update the id in, "carousel indicators" section and "carousel control" section.  
+											
+											Carousel comes with 3 main data attributes which you can customize. They are...
+											data-interval - Time delay between item cycle. Default value "5000".
+											data-pause - Pause on hover. Default value "pause".
+											data-wrap - Continues cycle or stop at the end. Default value "true".
+										-->
+									
+										<!-- Outer layer -->
+										<div id="bs-carousel-1" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
+											
+											<!-- Slides. You can also add captions -->
+											<div class="carousel-inner">
+												<!-- Item, First item should have extra class "active" -->
+												<div class="item active">
+													<!-- Image -->
+													<img src="{{asset('brave/img/backgrounds/s1.jpg')}}" alt="">
+												</div>
+												
+											</div>
+											
+										</div>
+														
+										
 										<!-- Paragraph -->
-										<p>Do You Ever Struggle With Your Fingerings and Think to Yourself... </p>
+										<p>Hello Fans, Happy New Month....psalm 65:11,"He crown the year with His goodness". welcome to #MusicFluteTrainingTipsByEbele
+
+This topic today concerns all instrumentalist of different instruments, especially the woodwind instruments. 
+
+ Do You Ever Struggle With Your Fingerings and Think to Yourself...
+
+- I often hit wrong notes during fast passages or the
+   notes don't sound clearly.
+
+- The normal aging process must be slowing my fingers down a little.
+
+- I can't play my scales evenly, there are often extra notes.
+
+- My fingers start to feel stiff after playing for only a short time.
+
+"5TIPS TO INCREASE YOUR FLUTE FINGERING "
+
+Tip1) Always warm up with scales, try and hit 3octaves in your warm up routine. Make this a regular exercise. Take away materials you normally use to aid you,just be left with  practising the scales. Sometimes try flexing your fingers with the instrument.(this is to make the fingers flexible and ready to play fast).
+
+Tip2) Allow the brain to first fully focus on this task and learn it well so when you finally do go to your instrument to play music, a very large part of the equation is solved, leaving you with more brain power to devote to the music itself, the fingering as well.
+
+Tip3) When working on a difficult music,try and take one problematic measure at a time, play it forwards and backwards....you can use a metronome (metronome is a device that helps to count timing in music) to gradually increase your tempo. You can try memorizing it....then focus on increasing your fingering.
+
+Tip4) Train only your fingers first and the rest will fall into place more quickly.  Learn the complex fingering patterns first, away from your instrument, so they are ingrained, permanently.
+
+Tip5) Practice the difficult phrase with a phrase or two that comes before it, do this slowly first. While doing this, release your tension, especially those area you feel pain...like the shoulders for example, focus on getting better in what you're practising. Think rightly also, because when you think you already know...this can affect what you do
+</p>
+									</div>
+								</div>
+								<!-- Blog item ends -->
+								
+								<!-- Author section -->
+								<div class="blog-author well">
+									
+									<!-- Author details -->
+									<div class="blog-author-content">
+										<p>I welcome questions/suggestions/comments. Follow on Instagram/Twitter @ebeletheflutist for more information.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								
+							
+								
+								
+							
+							</div>
+
+							<!-- Sidebar column -->
+							<div class="col-md-4">
+								<!-- Sidebar -->
+								<div class="sidebar">
+
+							<!-- Categories Widget -->
+									<div class="s-widget">
+										<!-- Heading -->
+										<h5><i class="fa fa-folder color"></i>&nbsp; Leatest #MusicFluteTrainingTipsByEbele</h5>
+										<!-- Widgets Content -->
+										<div class="widget-content categories">
+											<ul class="list-6">
+												<li><a href="#">Web Designing <span class="color">(5)</span></a></li>
+												<li><a href="#">Graphic Design <span class="color">(5)</span></a></li>
+												<li><a href="#">PHP Dev <span class="color">(5)</span></a></li>
+												<li><a href="#">Android Dev <span class="color">(5)</span></a></li>
+												<li><a href="#">Photoshop <span class="color">(5)</span></a></li>
+												<li><a href="#">WordPress <span class="color">(5)</span></a></li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/2.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/2.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-video-camera bg-lblue"></i></a>
-										<h4><a href="#">Itaque Earum</a></h4>
-										<div class="bor bg-lblue"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/3.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/3.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-music bg-green"></i></a>
-										<h4><a href="#">Rerum Tenetur</a></h4>
-										<div class="bor bg-green"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
-							</div><div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/4.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/4.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-picture-o bg-purple"></i></a>
-										<h4><a href="#">Maiores Alias</a></h4>
-										<div class="bor bg-purple"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 					</div>
-					
-					
-					
-				</div>
-				
-				<br /><br />
-				
-				<div class="quote-two">
-					<!-- Container -->
-					<div class="container">
-						<!-- Quote Two Content -->
-						<div class="quote-two-content">
-							<span>&#8220;</span>
-							<div class="owl-carousel" data-items="1" data-auto-play="true" data-pagination="true" data-single-item="true">
-								<!-- Item -->
-								<div class="item">
-									<h3>Ebele was exposed to music as a little child and she learnt rudiments of music at a very early stage of her life.</h3>
-								</div>
-								<div class="item">
-									<h3>Ebele was 14yrs old when she got her first flute as a gift from her Dad.</h3>
-								</div>
-								<div class="item">
-									<h3>Music was initially to her a hobby, then it became a passion. Now music is more than a career to Ebele, it is her life’s story.</h3>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</div>
-				
-				<br />
-				
-				<div class="container">
-				
-					<!-- Block heading two -->
-					<div class="block-heading-two">
-						<h3><span>Brand Personality</span></h3>
-					</div>	
-					
-					<div class="row">
-						<div class="col-md-7 col-sm-6">
-							<p class="para-big">The Ebele brand is active, youthful and driven. I have a strong belief in God and His purpose for mankind and He takes utmost priority in all things. I believe that with His help, hard work and determination, all goals are achievable. So I am practical, and I do my best at every point in time to be articulate my versatility, creativity, intelligence and skill.</p>
-							<p class="para-big">I am friendly, warm and extremely passionate about music. I am not a stereotype. I am very comfortable with change. I am always learning and always giving myself to what I believe in. I am I am principled, yet approachable, full of vigor yet collected. I am confident, articulate, fit and socially learned.</p>
-						</div>
-						<div class="col-md-5 col-sm-6 text-center">
-							<a href="#"><img src="{{asset('brave/img/rev-slider/ebeletheflutist_13.png')}}" alt="" class="img-responsive" /></a>
-						</div>
-					</div>
-					
-					<br />
-					<br />
+									
 				</div>
 			</div>
 			
 			<!-- Main content ends -->
+			<!-- main-container end -->
+
+		
 			
-			@include('homepublic.layouts.footer')
 		
-		</div>
-		
-		<!-- Outer Ends -->	
-@endsection	
+	@include('homepublic.layouts.footer')
+	
+	</div>
+	
+	<!-- Outer Ends -->	
+@endsection
+
