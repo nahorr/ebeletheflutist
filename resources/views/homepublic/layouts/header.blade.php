@@ -66,16 +66,16 @@
 								
 									<li><a href="{{url('/')}}">MUSIC</a>
 										<ul>
-											<li><a href=" {{url('/music/audios')}} ">Audios </a></li>
-											<li><a href="{{url('/music/videos')}}">Videos </a></li>
+											<li><a href="https://www.reverbnation.com/ebeletheflutist" target="_blank">Audios </a></li>
+											<li><a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg" target="_blank">Videos </a></li>
 											<li><a href="{{url('/music/lyrics')}}">Lyrics</a></li>
-											<li><a href="{{url('/music/training')}}">Music/Flute Training</a></li>
 											
 										</ul>
 									</li>
 									
 									<li><a href="{{url('/about')}}">ABOUT EBELE</a></li>
 									<li><a href="{{url('/contact')}}">CONTACT</a></li>
+									<li><a href="{{url('/music/training')}}">Music/Flute Training</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->
