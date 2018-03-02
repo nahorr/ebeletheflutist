@@ -17,6 +17,7 @@
                             <strong>{{ Auth::user()->name }}'s</strong> Dashboard
                         </small>
                     </a>
+                    
                 </div>
 
                 <div class="navbar-buttons navbar-header pull-right" role="navigation">

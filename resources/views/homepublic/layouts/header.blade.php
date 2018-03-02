@@ -14,10 +14,12 @@
 					
 					
 					<!-- Langauge starts -->
+					<!--
 					<div class="tb-language dropdown pull-right">
 						<a href="{{ route('login') }}"><i class="fa fa-user"></i> Login</a>&nbsp;&nbsp;
 						<a href="{{ route('register') }}"><i class="fa fa-user-plus"></i> Register</a>
 					</div>
+				-->
 					<!-- Language ends -->
 					
 									
