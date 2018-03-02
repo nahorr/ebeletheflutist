@@ -117,7 +117,9 @@ class HomeController extends Controller
 
     public function musicFluteTrainingTipsByEbele()
     {
-    	return view('homepublic.musicflutetrainingtipsbyebele');
+    	$tips = Tip::all();
+
+        return view('homepublic.musicflutetrainingtipsbyebele', compact('tips'));
     }
 
     public function musicFluteTrainingTipsByEbeleTip($tip_id)
