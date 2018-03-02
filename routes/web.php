@@ -21,6 +21,7 @@ Route::get('/about', 'HomePublic\HomeController@about');
 Route::get('/contact', 'HomePublic\HomeController@contact');
 Route::post('/postcontactform', 'HomePublic\HomeController@postContactForm');
 Route::get('/musicflutetrainingtipsbyebele', 'HomePublic\HomeController@musicFluteTrainingTipsByEbele');
+Route::get('/musicflutetrainingtipsbyebeletip/{tip}', 'HomePublic\HomeController@musicFluteTrainingTipsByEbeleTip');
 
 Auth::routes();
 
@@ -32,6 +33,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => 'admin'], function () { 
 
   Route::get('/admin/home', 'Admin\HomeController@index');
-  Route::get('/admin/tips/showtips', 'Admin\TipsController@showTips');
+  Route::get('/admin/tips/showtips', 'Admin\TipsController@showTips')->name('showtips');
+  Route::get('/admin/tips/addtip', 'Admin\TipsController@addTip');
+  Route::post('/admin/tips/postaddtip', 'Admin\TipsController@postAddTip');
+  Route::get('/admin/tips/edittip/{tip}', 'Admin\TipsController@editTip');
+  Route::post('/admin/tips/postedittip/{tip}', 'Admin\TipsController@postEditTip');
+  Route::get('/admin/tips/deletetip/{tip}', 'Admin\TipsController@deleteTip');
   
 });

@@ -14,6 +14,7 @@ use File;
 use App\User;
 use App\ContactUs;
 use Mail;
+use App\Tip;
 
 class HomeController extends Controller
 {
@@ -21,7 +22,9 @@ class HomeController extends Controller
 
     public function index()
     {
-    	return view('homepublic.index');
+        $tips = Tip::all();
+
+    	return view('homepublic.index', compact('tips'));
     }
 
     public function musicAudios()
@@ -115,5 +118,14 @@ class HomeController extends Controller
     public function musicFluteTrainingTipsByEbele()
     {
     	return view('homepublic.musicflutetrainingtipsbyebele');
+    }
+
+    public function musicFluteTrainingTipsByEbeleTip($tip_id)
+    {
+        $tip = Tip::find($tip_id);
+
+        $latest_tips = Tip::all();
+
+        return view('homepublic.musicflutetrainingtipsbyebeletip', compact('tip', 'latest_tips'));
     }
 }

@@ -84,55 +84,27 @@
 					
 					<div class="img-box-4 text-center">
 						<div class="row">
+							@foreach($tips as $tip)
 							<div class="col-md-3 col-sm-6">
 								<!-- Image Box #4 Item -->
 								<div class="img-box-4-item">
 									<!-- Image -->
-									<a href="{{asset('brave/img/gallery/small/1.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/1.jpg')}}" alt="" class="img-responsive" /></a>
+									<a href="{{ url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}"><img src="{{asset('/tips/images/'.$tip->tip_image )}}" alt="" class="img-responsive" /></a>
 									<!-- Image Box #4 Content -->
 									<div class="img-box-4-content">
 										<!-- Icon -->
-										<a href="#"><i class="fa fa-picture-o bg-red"></i></a>
+										<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}"><i class="fa fa-picture-o bg-red"></i></a>
 										<!-- Heading -->
-										<h4><a href="#">5 TIPS TO INCREASE YOUR FLUTE FINGERING </a></h4>
+										<h4><a href="{{ url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}"> {{$tip->tip_title}} </a></h4>
 										<!-- Border -->
 										<div class="bor bg-red"></div>
 										<!-- Paragraph -->
-										<p>Do You Ever Struggle With Your Fingerings and Think to Yourself... </p>
+										<!--<p>{!! $tip->tip_body !!} </p>-->
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/2.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/2.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-video-camera bg-lblue"></i></a>
-										<h4><a href="#">Itaque Earum</a></h4>
-										<div class="bor bg-lblue"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/3.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/3.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-music bg-green"></i></a>
-										<h4><a href="#">Rerum Tenetur</a></h4>
-										<div class="bor bg-green"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
-							</div><div class="col-md-3 col-sm-6">
-								<div class="img-box-4-item">
-									<a href="{{asset('brave/img/gallery/small/4.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/4.jpg')}}" alt="" class="img-responsive" /></a>
-									<div class="img-box-4-content">
-										<a href="#"><i class="fa fa-picture-o bg-purple"></i></a>
-										<h4><a href="#">Maiores Alias</a></h4>
-										<div class="bor bg-purple"></div>
-										<p>Certain circumstances and owing libero tempore minus to the owing claims of duty.</p>
-									</div>
-								</div>
+							@endforeach
+							
 							</div>
 						</div>
 					</div>

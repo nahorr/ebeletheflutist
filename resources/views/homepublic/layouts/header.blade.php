@@ -47,7 +47,7 @@
 				<!-- Container -->
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<!-- Logo section -->
 							<div class="logo">
 								<a href="{{ url('/') }}">
@@ -56,7 +56,7 @@
 							</div>
 							
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-8">
 						
 							<!-- Navigation starts.  -->
 							<div class="navy">			
@@ -75,7 +75,8 @@
 									
 									<li><a href="{{url('/about')}}">ABOUT EBELE</a></li>
 									<li><a href="{{url('/contact')}}">CONTACT</a></li>
-									<li><a href="{{url('/music/training')}}">Music/Flute Training</a></li>
+									<li><a href="{{url('/music/training')}}">Training</a></li>
+									<li><a href="{{url('/music/training')}}">Tips</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->
