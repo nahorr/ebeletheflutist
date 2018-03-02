@@ -62,17 +62,17 @@
                     <div class="page-content">
 
                     @if (Auth::user() &&  Auth::user()->is_admin == 1)
-                        <div class="page-header">
-                            <a href="{{url('/admin/home')}}">
-                            <h1>
-                                Admin Dashboard
-                                <small>
-                                    <i class="ace-icon fa fa-angle-double-right"></i>
-                                    click to go to admin dashboard. Only Admins can see this link.
-                                </small>
-                            </h1>
-                            </a>
-                        </div><!-- /.page-header -->
+                    <div class="page-header">
+                        <a href="{{url('/admin/home')}}">
+                        <h1>
+                            Admin Dashboard
+                            <small>
+                                <i class="ace-icon fa fa-angle-double-right"></i>
+                                click to go to admin dashboard. Only Admins can see this link.
+                            </small>
+                        </h1>
+                        </a>
+                    </div><!-- /.page-header -->
                     @endif
 
                         <div class="row">
