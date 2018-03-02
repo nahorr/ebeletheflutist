@@ -34,7 +34,7 @@
 									<!-- Image Box #6 Image -->
 									<div class="img-box-6-img">
 										<!-- Image -->
-										<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}" class="lightbox"><img src="{{asset('/tips/images/'.$tip->tip_image )}}" alt="" class="img-responsive" /></a>
+										<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}" ><img src="{{asset('/tips/images/'.$tip->tip_image )}}" alt="" class="img-responsive" /></a>
 									</div>	
 									<!-- Image Box #6 Content -->
 									<div class="img-box-6-content">
