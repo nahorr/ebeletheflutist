@@ -78,7 +78,7 @@
 									<li><a href="{{url('/about')}}">ABOUT EBELE</a></li>
 									<li><a href="{{url('/contact')}}">CONTACT</a></li>
 									<li><a href="{{url('/music/training')}}">Training</a></li>
-									<li><a href="{{url('/music/training')}}">Tips</a></li>
+									<li><a href="{{url('/musicflutetrainingtipsbyebele')}}">Tips</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->
