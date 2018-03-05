@@ -27,26 +27,24 @@
 					<!-- Container -->
 					<div class="container">
 						<div class="row">
-							@foreach($tips as $tip)
+							@foreach($tips->slice(0, 4) as $tip)
 								
-									<div class="col-md-4">
-										<!-- Image Box #6 Item -->
-										<div class="img-box-6-item">
-											<!-- Image Box #6 Image -->
-											<div class="img-box-6-img">
-												<!-- Image -->
-												<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}" ><img src="{{asset('/tips/images/'.$tip->tip_image )}}" alt="" class="img-responsive" /></a>
-											</div>	
-											<!-- Image Box #6 Content -->
-											<div class="img-box-6-content">
-												<h4><a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}">{{$tip->tip_title}}</a></h4>
-												
-											</div>
+								<div class="col-md-4">
+									<!-- Image Box #6 Item -->
+									<div class="img-box-6-item">
+										<!-- Image Box #6 Image -->
+										<div class="img-box-6-img">
+											<!-- Image -->
+											<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}" ><img src="{{asset('/tips/images/'.$tip->tip_image )}}" alt="" class="img-responsive" /></a>
+										</div>	
+										<!-- Image Box #6 Content -->
+										<div class="img-box-6-content">
+											<h4><a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}">{{$tip->tip_title}}</a></h4>
+											
 										</div>
 									</div>
-								@if($loop->count == 4)
-									@break
-								@endif
+								</div>
+								
 							@endforeach
 						</div>
 					</div>
