@@ -69,7 +69,7 @@
 										data-y="90"
 										data-speed="700"
 										data-start="2000"
-										style="z-index: 7">LISTEN TO AUDIOS
+										style="z-index: 7"><a href="https://www.reverbnation.com/ebeletheflutist" target="_blank" style="color: white">LISTEN TO AUDIOS</a>
 									</div>
 
 									<!-- Layer 8 -->
@@ -78,7 +78,7 @@
 										data-y="150"
 										data-speed="700"
 										data-start="2300"
-										style="z-index: 7">WATCH VIDEOS
+										style="z-index: 7"><a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg" target="_blank" style="color: white">WATCH VIDEOS</a>
 									</div>	
 
 									<!-- Layer 9 -->
@@ -87,7 +87,7 @@
 										data-y="210"
 										data-speed="700"
 										data-start="2600"
-										style="z-index: 7">LEARN THE LYRICS
+										style="z-index: 7"><a href="{{ url('/')}}" style="color: white">LEARN THE LYRICS</a>
 									</div>	
 
 									<!-- Layer 10 -->
@@ -96,7 +96,7 @@
 										data-y="270"
 										data-speed="700"
 										data-start="2900"
-										style="z-index: 7">MUSIC & FLUTE TRAINING
+										style="z-index: 7"><a href="{{ url('/music/training')}}" style="color: white">MUSIC & FLUTE TRAINING</a>
 									</div>																		
 									
 								</li>

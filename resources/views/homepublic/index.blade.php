@@ -43,9 +43,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-lblue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_videos.png')}}" alt="" class="img-responsive" /></a>
+										<a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_videos.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Videos</a></h4>
+									<h4><a href="https://www.youtube.com/channel/UCn48QmMqWzNbQdajNElQfTg">Videos</a></h4>
 									<div class="bor bg-lblue"></div>
 									<p>Visit our youtube chanel for inspirational and mind lifting music videos and perfomences.</p>
 								</div>
@@ -56,7 +56,7 @@
 									<div class="img-box-3-icon bg-green">
 										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_lyrics.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Lyrics</a></h4>
+									<h4><a href="{{url('/')}}">Lyrics</a></h4>
 									<div class="bor bg-green"></div>
 									<p>Interested in Learning the Lyrics? Check our Lyrics page out and sign along with Ebele.</p>
 								</div>
@@ -65,9 +65,9 @@
 								<!-- Image Box #3 Item -->
 								<div class="img-box-3-item">
 									<div class="img-box-3-icon bg-blue">
-										<a href="#"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_training.png')}}" alt="" class="img-responsive" /></a>
+										<a href="{{url('/music/training')}}"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_training.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="#">Taining</a></h4>
+									<h4><a href="{{url('/music/training')}}">Taining</a></h4>
 									<div class="bor bg-blue"></div>
 									<p>We provide music and flute training for companies and individuals - inhouse or remotely.  </p>
 								</div>
