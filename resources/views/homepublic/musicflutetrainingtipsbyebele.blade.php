@@ -29,7 +29,7 @@
 						<div class="row">
 							@foreach($tips->slice(0, 4) as $tip)
 								
-								<div class="col-md-4">
+								<div class="col-md-3">
 									<!-- Image Box #6 Item -->
 									<div class="img-box-6-item">
 										<!-- Image Box #6 Image -->
