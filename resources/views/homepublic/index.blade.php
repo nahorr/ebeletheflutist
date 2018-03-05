@@ -84,8 +84,8 @@
 					
 					<div class="img-box-4 text-center">
 						<div class="row">
-							@foreach($tips->take(10) as $tip)
-							<div class="col-md-3 col-sm-6">
+							@foreach($tips->take(8) as $tip)
+							<div class="col-md-3">
 								<!-- Image Box #4 Item -->
 								<div class="img-box-4-item">
 									<!-- Image -->

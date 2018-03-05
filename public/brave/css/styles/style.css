@@ -4741,6 +4741,7 @@ body.boxed.img-5 {
 .img-box-4 .img-box-4-item{
 	max-width:260px;
 	margin:10px auto;
+	max-height:360px;
 }
 .img-box-4 .img-box-4-content{
 	border:1px solid #eee;
