@@ -27,7 +27,7 @@
 					<!-- Container -->
 					<div class="container">
 						<div class="row">
-							@foreach($tips->slice(0, 4) as $tip)
+							@foreach($tips as $tip)
 								
 								<div class="col-md-3">
 									<!-- Image Box #6 Item -->
