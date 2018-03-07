@@ -43,26 +43,17 @@
 							<!-- Foot Item -->
 							<div class="foot-item">
 								<!-- Heading -->
-								<h5 class="bold"><i class="fa fa-picture-o"></i>&nbsp;&nbsp;Recent Images</h5>
+								<h5 class="bold"><i class="fa fa-picture-o"></i>&nbsp;&nbsp;Recent Tips</h5>
 								<!-- Foot Item Content -->
 								<div class="foot-item-content">
 									<!-- Foot Recent Image --> 
+
 									<div class="foot-recent-img">
-										<a href="{{asset('brave/img/gallery/small/1.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/1.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/2.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/2.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/3.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/3.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
+										@foreach($tips->take(6) as $tip)
+										<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}"><img src="{{asset('/tips/images/'.$tip->tip_image)}}" alt="" class="img-thumbnail-responsive img-thumbnail" /></a>
+										@endforeach
 									</div>
-									<!-- Foot Recent Image --> 
-									<div class="foot-recent-img">
-										<a href="{{asset('brave/img/gallery/small/1.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/1.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/2.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/2.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/3.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/3.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-									</div>
-									<div class="foot-recent-img">
-										<a href="{{asset('brave/img/gallery/small/1.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/1.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/2.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/2.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-										<a href="{{asset('brave/img/gallery/small/3.jpg')}}" class="lightbox"><img src="{{asset('brave/img/gallery/small/3.jpg')}}" alt="" class="img-responsive img-thumbnail" /></a>
-									</div>
+									
 								</div>
 							</div>
 						</div>

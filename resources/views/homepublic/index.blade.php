@@ -67,7 +67,7 @@
 									<div class="img-box-3-icon bg-blue">
 										<a href="{{url('/music/training')}}"><img src="{{asset('brave/img/flat-icons/ebeletheflutist_training.png')}}" alt="" class="img-responsive" /></a>
 									</div>
-									<h4><a href="{{url('/music/training')}}">Taining</a></h4>
+									<h4><a href="{{url('/music/training')}}">Training</a></h4>
 									<div class="bor bg-blue"></div>
 									<p>We provide music and flute training for companies and individuals - inhouse or remotely.  </p>
 								</div>
@@ -148,7 +148,7 @@
 					
 					<div class="row">
 						<div class="col-md-7 col-sm-6">
-							<p class="para-big">The Ebele brand is active, youthful and driven. I have a strong belief in God and His purpose for mankind and He takes utmost priority in all things. I believe that with His help, hard work and determination, all goals are achievable. So I am practical, and I do my best at every point in time to be articulate my versatility, creativity, intelligence and skill.</p>
+							<p class="para-big">The Ebele brand is active, youthful and driven. I have a strong belief in God and His purpose for mankind and He takes utmost priority in all things. I believe that with His help, hard work and determination, all goals are achievable. So I am practical, and I do my best at every point in time to articulate my versatility, creativity, intelligence and skill.</p>
 							<p class="para-big">I am friendly, warm and extremely passionate about music. I am not a stereotype. I am very comfortable with change. I am always learning and always giving myself to what I believe in. I am I am principled, yet approachable, full of vigor yet collected. I am confident, articulate, fit and socially learned.</p>
 						</div>
 						<div class="col-md-5 col-sm-6 text-center">
