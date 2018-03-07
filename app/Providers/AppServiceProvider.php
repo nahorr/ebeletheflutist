@@ -13,7 +13,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('homepublic.layouts.footer', function($view)
+        {
+            $view->with('latest_tips', \App\Tip::get());
+        });
     }
 
     /**

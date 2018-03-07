@@ -49,7 +49,7 @@
 									<!-- Foot Recent Image --> 
 
 									<div class="foot-recent-img">
-										@foreach($tips->take(6) as $tip)
+										@foreach($latest_tips->take(9) as $tip)
 										<a href="{{url('/musicflutetrainingtipsbyebeletip/'.$tip->id)}}"><img src="{{asset('/tips/images/'.$tip->tip_image)}}" alt="" class="img-thumbnail-responsive img-thumbnail" /></a>
 										@endforeach
 									</div>
