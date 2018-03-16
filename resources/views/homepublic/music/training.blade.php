@@ -28,7 +28,7 @@
 							<div class="image-style-seven">
 								<!-- Image -->
 								
-								<iframe  width="560" height="315" src="https://www.youtube.com/embed/YCSRSe6nPY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<iframe  width="100%" height="315" src="https://www.youtube.com/embed/YCSRSe6nPY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 								
 							</div>
 							
@@ -42,13 +42,29 @@
 							
 							<div class="image-style-seven">
 								<!-- Image -->
-								<iframe  width="560" height="315" src="{{URL::asset('training/videos/rudiment_of_music.mp4')}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<iframe  width="100%" height="315" src="{{URL::asset('training/videos/rudiment_of_music.mp4')}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 								
 							</div>
 							
 							<!-- Heading -->
 							<div class="block-heading-two">
-								<h3><span>Rudiment of Music</span></h3>
+								<h3><span>Rudiments Of Music part 1</span></h3>
+							</div>
+						
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							
+							<div class="image-style-seven">
+								<!-- Image -->
+								
+								<iframe  width="560" height="315" src="https://www.youtube.com/embed/AqBR13tftsg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								
+							</div>
+							
+							<!-- Heading -->
+							<div class="block-heading-two">
+								<h3><span>Rudiments Of Music part 2</span></h3>
 							</div>
 						
 						</div>
