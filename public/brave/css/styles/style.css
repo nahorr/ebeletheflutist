@@ -4808,6 +4808,8 @@ body.boxed.img-5 {
 	margin:10px auto;
 	max-width:450px;
 	box-shadow:0px 0px 3px rgba(0,0,0,0.2);
+	max-height: 260px;
+    min-height: 260px;
 }
 .img-box-6 .img-box-6-content{
 	position:absolute;
