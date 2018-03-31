@@ -84,6 +84,22 @@
 							</div>
 						
 						</div>
+
+						<div class="col-md-6 col-sm-6">
+							
+							<div class="image-style-seven">
+								<!-- Image -->
+								
+								<iframe  width="100%" height="315" src="https://www.youtube.com/embed/rWPlzbvXoDw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								
+							</div>
+							
+							<!-- Heading -->
+							<div class="block-heading-two">
+								<h3><span>Developing Singing Techniques</span></h3>
+							</div>
+						
+						</div>
 					</div>
 					
 
