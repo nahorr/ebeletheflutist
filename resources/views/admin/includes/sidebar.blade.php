@@ -22,6 +22,14 @@
                         <b class="arrow"></b>
                     </li>
 
+                    <li class="">
+                        <a href="{{url('admin/videos/showvideos')}}">
+                            <i class="menu-icon fa fa-youtube"></i>
+                            <span class="menu-text"> Training Videos </span>
+                        </a>
+
+                        <b class="arrow"></b>
+                    </li>
                    
                 </ul><!-- /.nav-list -->
 

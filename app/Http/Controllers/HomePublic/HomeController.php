@@ -15,6 +15,7 @@ use App\User;
 use App\ContactUs;
 use Mail;
 use App\Tip;
+use App\Video;
 
 class HomeController extends Controller
 {
@@ -44,7 +45,9 @@ class HomeController extends Controller
 
     public function musicTraining()
     {
-    	return view('homepublic.music.training');
+        $videos = Video::get();
+
+    	return view('homepublic.music.training', compact('videos'));
     }
 
     public function about()

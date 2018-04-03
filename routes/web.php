@@ -33,11 +33,21 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => 'admin'], function () { 
 
   Route::get('/admin/home', 'Admin\HomeController@index');
+
+  //tips
   Route::get('/admin/tips/showtips', 'Admin\TipsController@showTips')->name('showtips');
   Route::get('/admin/tips/addtip', 'Admin\TipsController@addTip');
   Route::post('/admin/tips/postaddtip', 'Admin\TipsController@postAddTip');
   Route::get('/admin/tips/edittip/{tip}', 'Admin\TipsController@editTip');
   Route::post('/admin/tips/postedittip/{tip}', 'Admin\TipsController@postEditTip');
   Route::get('/admin/tips/deletetip/{tip}', 'Admin\TipsController@deleteTip');
+
+  //videos
+  Route::get('/admin/videos/showvideos', 'Admin\VideosController@showVideos')->name('showvideos');
+  Route::get('/admin/videos/addvideo', 'Admin\VideosController@addVideo');
+  Route::post('/admin/videos/postaddvideo', 'Admin\VideosController@postAddVideo');
+  Route::get('/admin/videos/editvideo/{video}', 'Admin\VideosController@editVideo');
+  Route::post('/admin/videos/posteditvideo/{video}', 'Admin\VideosController@postEditVideo');
+  Route::get('/admin/videos/deletevideo/{video}', 'Admin\VideosController@deleteVideo');
   
 });
