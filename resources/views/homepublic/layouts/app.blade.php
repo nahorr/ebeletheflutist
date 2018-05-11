@@ -5,8 +5,9 @@
 		<title>Home - Ebele The Flutist</title>
 		<!-- Description, Keywords and Author -->
 		<meta name="description" content="Ebele The Flutist">
-		<meta name="keywords" content="Your,Keywords">
-		<meta name="author" content="ResponsiveWebInc">
+		<meta property="og:image" content="https://ebeletheflutist.com/brave/img/ebeletheflutist_logo.png" />
+		<meta name="keywords" content="EbeleTheFlutist">
+		<meta name="author" content="Nahorr">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
