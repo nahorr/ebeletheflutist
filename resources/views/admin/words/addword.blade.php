@@ -4,8 +4,7 @@
 
 <div class="page-header">
     <h1>
-       Add a new tip
-   </h1>
+       Add a new word
 </div><!-- /.page-header -->
 @include('flash::message')
 
@@ -13,13 +12,13 @@
     <div class="col-sm-6">
         <div class="widget-box">
             <div class="widget-header">
-                <h4 class="widget-title">Add a new tip</h4>
+                <h4 class="widget-title">Add a new Word</h4>
                 
             </div>
 
             <div class="widget-body">
                 <div class="widget-main">
-                    <form class="form-group" action="{{ url('/admin/tips/postaddtip') }}" method="POST" enctype="multipart/form-data">
+                    <form class="form-group" action="{{ url('/admin/words/postaddword') }}" method="POST" enctype="multipart/form-data">
                 
                     {{ csrf_field() }}
 
@@ -27,12 +26,12 @@
 	                        <div class="widget-main">
 	                                
 
-	                            <label for="school-year"><strong>Title</strong></label>
+	                            <label for="word_title"><strong>Title</strong></label>
 
 	                            <div class="row">
 	                                <div class="col-xs-8 col-sm-11">
 	                                    <div class="input-group">
-	                                        <input class="form-control" id="tip_title" type="text" name="tip_title" required="required" />
+	                                        <input class="form-control" id="word_title" type="text" name="word_title" required="required" />
 	                                        <span class="input-group-addon">
 	                                            <i class="fa fa-key bigger-110"></i>
 	                                        </span>
@@ -49,15 +48,15 @@
 	                            <div class="row">
 	                                <div class="col-xs-8 col-sm-11">
 	                              
-	                                <textarea id="tip_body" class=" summernote autosize-transition form-control" name="tip_body"></textarea>
+	                                <textarea id="word_body" class=" summernote autosize-transition form-control" name="word_body"></textarea>
 	                            </div>
 	                            </div>
 
 	                            <hr />
 
 	                            <div class="form-group">
-	                                <label><strong>Upload a picture for this tip</strong> </label>
-	                                <input type="file" name="tip_image" id="tip_image">
+	                                <label><strong>Upload a oicture for this word</strong> </label>
+	                                <input type="file" name="word_image" id="word_image">
 	                                <p class="help-block">Please upload a picture if any(jpg,png only).</p>
                               	</div>
 
@@ -66,7 +65,7 @@
 	                            <div class="clearfix form-actions">
 	                                <div class="col-md-offset-3 col-md-9">
 	                                    
-	                                    <input type="submit" value="Post Tip">
+	                                    <input type="submit" value="Post word">
 
 	                                    &nbsp; &nbsp; &nbsp;
 	                                    <button class="btn" type="reset">

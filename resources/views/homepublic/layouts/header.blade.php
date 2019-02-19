@@ -79,6 +79,7 @@
 									<li><a href="{{url('/contact')}}">CONTACT</a></li>
 									<li><a href="{{url('/music/training')}}">TRAINING</a></li>
 									<li><a href="{{url('/musicflutetrainingtipsbyebele')}}">TIPS</a></li>
+									<li><a href="{{url('/wordsbyebele')}}">WORDS</a></li>
 								</ul>
 							</div>							
 							<!-- Navigation ends -->

@@ -22,6 +22,8 @@ Route::get('/contact', 'HomePublic\HomeController@contact');
 Route::post('/postcontactform', 'HomePublic\HomeController@postContactForm');
 Route::get('/musicflutetrainingtipsbyebele', 'HomePublic\HomeController@musicFluteTrainingTipsByEbele');
 Route::get('/musicflutetrainingtipsbyebeletip/{tip}', 'HomePublic\HomeController@musicFluteTrainingTipsByEbeleTip');
+Route::get('/wordsbyebele', 'HomePublic\WordsController@WordsByEbele');
+Route::get('/showwordsbyebele/{word}', 'HomePublic\WordsController@showWordsByEbele');
 
 Auth::routes();
 
@@ -41,6 +43,14 @@ Route::group(['middleware' => 'admin'], function () {
   Route::get('/admin/tips/edittip/{tip}', 'Admin\TipsController@editTip');
   Route::post('/admin/tips/postedittip/{tip}', 'Admin\TipsController@postEditTip');
   Route::get('/admin/tips/deletetip/{tip}', 'Admin\TipsController@deleteTip');
+
+  //Words
+  Route::get('/admin/words/showwords', 'Admin\WordsController@showWords')->name('showwords');
+  Route::get('/admin/words/addword', 'Admin\WordsController@addWord');
+  Route::post('/admin/words/postaddword', 'Admin\WordsController@postAddWord');
+  Route::get('/admin/words/editword/{word}', 'Admin\WordsController@editWord');
+  Route::post('/admin/words/posteditword/{word}', 'Admin\WordsController@postEditWord');
+  Route::get('/admin/words/deleteword/{word}', 'Admin\WordsController@deleteWord');
 
   //videos
   Route::get('/admin/videos/showvideos', 'Admin\VideosController@showVideos')->name('showvideos');

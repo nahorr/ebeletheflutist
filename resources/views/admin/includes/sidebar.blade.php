@@ -15,13 +15,20 @@
 
                     <li class="">
                         <a href="{{url('admin/tips/showtips')}}">
-                            <i class="menu-icon fa fa-tachometer"></i>
+                            <i class="menu-icon fa fa-pencil"></i>
                             <span class="menu-text"> Tips By Ebele </span>
                         </a>
 
                         <b class="arrow"></b>
                     </li>
+                    <li class="">
+                        <a href="{{url('admin/words/showwords')}}">
+                            <i class="menu-icon fa fa-book"></i>
+                            <span class="menu-text"> Words By Ebele </span>
+                        </a>
 
+                        <b class="arrow"></b>
+                    </li>
                     <li class="">
                         <a href="{{url('admin/videos/showvideos')}}">
                             <i class="menu-icon fa fa-youtube"></i>
