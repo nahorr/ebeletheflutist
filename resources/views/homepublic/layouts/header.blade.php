@@ -86,14 +86,6 @@
 							
 						</div>
 
-						<div class="col-md-1">
-							
-							<!-- Search section -->
-							<div class="head-search pull-right">
-								<button class="btn btn-warning" type="button"><a href="https://nahorr.com/"><strong>EBELE'S WORLD</strong></a></button>
-							</div>
-						</div>
-						<!-- Search section ends -->
 						<div class="clearfix"></div>
 												
 					</div>
