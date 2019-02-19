@@ -55,7 +55,7 @@
 	                            <hr />
 
 	                            <div class="form-group">
-	                                <label><strong>Upload a oicture for this word</strong> </label>
+	                                <label><strong>Upload a picture for this word</strong> </label>
 	                                <input type="file" name="word_image" id="word_image">
 	                                <p class="help-block">Please upload a picture if any(jpg,png only).</p>
                               	</div>
