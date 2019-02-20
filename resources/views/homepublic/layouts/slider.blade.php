@@ -87,7 +87,7 @@
 										data-y="210"
 										data-speed="700"
 										data-start="2600"
-										style="z-index: 7"><a href="{{ url('/')}}" style="color: white">LEARN THE LYRICS</a>
+										style="z-index: 7"><a href="{{ url('/wordsbyebele')}}" style="color: white">Words By Ebele</a>
 									</div>	
 
 									<!-- Layer 10 -->
