@@ -35,13 +35,13 @@ class WordsController extends Controller
             'word_image' => 'mimes:jpg,jpeg,bmp,png|max:10000',
             
         ]);
-
+/*
         
         $word_body=$request->input('word_body');
         $dom = new \DomDocument();
         $dom->loadHtml($word_body, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
         $word_body = $dom->saveHTML();
-
+*/
         if($request->hasFile('word_image')){
             $word_image = $request->file('word_image');
             $filename = time() . '.' . $word_image->getClientOriginalExtension();
@@ -55,7 +55,7 @@ class WordsController extends Controller
         Word::insert([
 
             'word_title'=>$request->word_title,
-            'word_body'=>$word_body,
+            'word_body'=>$request->word_body,
             'word_image'=>$filename,
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
@@ -89,11 +89,11 @@ class WordsController extends Controller
             
         ]);
 
-        
+        /*
         $word_body=$request->input('word_body');
         $dom = new \DomDocument();
         $dom->loadHtml($word_body, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
-        $word_body = $dom->saveHTML();
+        $word_body = $dom->saveHTML();*/
 
         if($request->hasFile('word_image')){
             $word_image = $request->file('word_image');
@@ -118,7 +118,7 @@ class WordsController extends Controller
     	$word_edit = Word::where('id', '=', $word->id)->first();
         
         $word_edit->word_title= $request->word_title;
-        $word_edit->word_body= $word_body;
+        $word_edit->word_body= $request->word_body;
         $word_edit->word_image= $filename;
         
         $word_edit->save();
